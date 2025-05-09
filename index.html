@@ -4,58 +4,90 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vandana & Ajay's Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Georgia', serif;
+      font-family: 'Open Sans', sans-serif;
+      background: #fff8f5;
+      color: #444;
       margin: 0;
       padding: 0;
-      background: #fff8f0;
-      color: #333;
     }
     header {
-      background: #ffdadb;
-      padding: 2rem;
+      background: #ffdce0;
       text-align: center;
+      padding: 3rem 1rem;
     }
     header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #9c4f4f;
     }
     header p {
       font-size: 1.2rem;
+      color: #6a3e3e;
     }
     .section {
-      padding: 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
+      padding: 2rem;
     }
     .section h2 {
-      border-bottom: 2px solid #ffb6b9;
-      padding-bottom: 0.5rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #b56576;
+      border-bottom: 2px solid #ffb6c1;
+      padding-bottom: 0.3rem;
       margin-bottom: 1rem;
     }
     .event {
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .event h3 {
+      margin: 0;
+      color: #8f4c5d;
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      height: 500px;
+      margin-top: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 280px;
+      margin: 5px;
+      border-radius: 8px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
     }
     footer {
-      background: #ffdadb;
+      background: #ffdce0;
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
+      color: #6a3e3e;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Vandana & Ajay</h1>
-    <p>Join us in celebrating our wedding</p>
-    <p><strong>May 23, 2025 at 4:25 PM</strong></p>
+    <p>Tying the knot on May 23, 2025 at 4:25 PM</p>
   </header>
 
   <div class="section">
     <h2>Wedding Ceremony</h2>
-    <p>Please join us for our wedding ceremony on May 23rd at 4:25 PM.</p>
-    <p><strong>Location:</strong> [Insert Venue Name & Address]</p>
+    <p>We warmly invite you to celebrate with us.</p>
+    <p><strong>Date:</strong> May 23, 2025</p>
+    <p><strong>Time:</strong> 4:25 PM</p>
+    <p><strong>Location:</strong> Orchid Grand Palace</p>
   </div>
 
   <div class="section">
@@ -63,28 +95,40 @@
 
     <div class="event">
       <h3>Mehndi</h3>
-      <p><strong>Date:</strong> May 21, 2025</p>
-      <p><strong>Time:</strong> 6:00 PM</p>
-      <p><strong>Location:</strong> [Venue]</p>
+      <p><strong>Date:</strong> May 21, 2025 at 6:00 PM</p>
+      <p><strong>Location:</strong> Bride's Home</p>
     </div>
 
     <div class="event">
       <h3>Sangeet</h3>
-      <p><strong>Date:</strong> May 22, 2025</p>
-      <p><strong>Time:</strong> 7:00 PM</p>
-      <p><strong>Location:</strong> [Venue]</p>
+      <p><strong>Date:</strong> May 22, 2025 at 7:00 PM</p>
+      <p><strong>Location:</strong> Royal Garden Hall</p>
     </div>
 
     <div class="event">
       <h3>Reception</h3>
-      <p><strong>Date:</strong> May 24, 2025</p>
-      <p><strong>Time:</strong> 7:30 PM</p>
-      <p><strong>Location:</strong> [Venue]</p>
+      <p><strong>Date:</strong> May 24, 2025 at 7:30 PM</p>
+      <p><strong>Location:</strong> Grand Sapphire Banquet</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>RSVP</h2>
+    <p>Please let us know if you’ll attend by filling out the form below:</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe-example-form-url/viewform?embedded=true" allowfullscreen></iframe>
+  </div>
+
+  <div class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Pre-Wedding+Shoot" alt="Pre-wedding" />
+      <img src="https://via.placeholder.com/300x200?text=Engagement" alt="Engagement" />
+      <img src="https://via.placeholder.com/300x200?text=Family+Moments" alt="Family" />
     </div>
   </div>
 
   <footer>
-    <p>We can't wait to celebrate with you! — Vandana & Ajay</p>
+    <p>With love, Vandana & Ajay — May 2025</p>
   </footer>
 </body>
 </html>
